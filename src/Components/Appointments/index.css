@@ -1,0 +1,60 @@
+.appointment-container .ant-card-meta-description{
+    color: white;
+    font-size: 20px;
+}
+
+.steps-container .ant-steps-item-description{
+    font-weight: 300 !important;
+    font-size: large !important;
+    color: green;
+    background: rgba(0,255,0,0.05);
+    border-radius: 5px;
+}
+.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item-description{
+    max-width: 100% !important;
+    white-space: normal;
+}
+
+.steps-container .ant-steps-item-finish{
+    color: red;
+}
+.appointment .ant-card{
+    margin-top: 40px;
+}
+.appointment  .ant-card-head{
+    text-align: center !important;
+}
+
+.appointment  .ant-card-body{
+    padding: 0 !important;
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+.appointment  .eventTypes{
+    padding-top: 12px !important;
+    margin: 0 !important;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.appointment  .eventTypes span{
+    margin-left: 50px;
+    font-weight: 500;
+}
+.appointment .selected{
+    border: 1px solid green !important;
+    border-radius: 5px;
+    background: rgba(0,255,0,0.1);
+}
+
+.appointment .timePicker{
+    padding-top: 12px !important;
+    margin: 0 !important;
+    height: 8vh;
+    cursor: pointer;
+    font-weight: 700;
+}
+.appointment .timePicker span{
+    width: 100%;
+    text-align: center;
+}

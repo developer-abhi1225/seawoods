@@ -1,0 +1,33 @@
+.share-link{
+    margin-left: 10px!important;
+}
+
+.share-link p{
+    margin-left: 10px!important;
+    color: blue;
+    cursor: pointer;
+}
+
+.eventTypeCardContainer{
+    min-height: 10vh;
+}
+.eventTypeCard{
+    height: 100% !important;
+    margin-bottom: 20px !important;
+}
+
+.eventTypeCard h4{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.eventTypeCard .ant-card-actions li{
+    text-align: left !important;
+}
+
+.addEditEventType .footerButtons{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}

@@ -1,0 +1,19 @@
+.login-container{
+    height: 100vh;
+    background: url("../../Assets/login.jpg");
+}
+.login-container .ant-form-item{
+    margin:0 !important;
+}
+
+.login-container .ant-form-item-label{
+    font-weight: 500;
+}
+
+.login-container .has-error .ant-form-item-children input{
+    background: rgba(245, 34, 45, 0.1)
+}
+
+.login{
+    margin-top:10vh !important;
+}
